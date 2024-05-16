@@ -1,5 +1,8 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
+import { TypeAnimation } from 'react-type-animation'
+
 
 const Section = () => {
     return (
@@ -8,9 +11,22 @@ const Section = () => {
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span className='text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 via-blue-300 to-slate-500'>
-                            Welcome, I am{' '}
+                            Welcome, I am a{" "}
                         </span>
-                        Andre
+                        <br />
+                        <TypeAnimation
+                            sequence={[
+                                'full-stack developer',
+                                1000,
+                                'web developer',
+                                1000,
+                                'software engineer',
+                                1000,
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            repeat={Infinity}
+                        />
                     </h1>
                     <p className="text-[#f6f7f8] text-base sm:text-lg mb-6 lg:text-xl">
                         Welcome to my portfolio
