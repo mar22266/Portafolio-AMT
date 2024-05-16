@@ -16,11 +16,10 @@ export async function POST(req) {
             react: (
                 <>
                     <div>
-                        <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: 'black' }}>SUBJECT: {subject}</h1>
                         <p style={{ color: 'black' }}>Thank you for contacting me!</p>
                         <p style={{ color: 'black' }}>I will get back to you as soon as possible.</p>
-                        <div style={{ height: '2em' }}></div> {/* Add two-line space */}
-                        <p style={{ color: 'blue' }}>USER MESSAGE: {message}</p> {/* Change color of the user message */}
+                        <div style={{ height: '2em' }}></div>
+                        <p style={{ color: 'blue' }}>USER MESSAGE: {message}</p>
                     </div>
 
                 </>
