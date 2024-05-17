@@ -34,7 +34,7 @@ const projectsData = [
     {
         id: 4,
         title: "Calculator Web App",
-        description: "Project 4 description",
+        description: "This is a calculator website built for making tests. The calculator has the basic operations. The calculator was built using vite. The website is responsive.",
         image: "/images/projects/calculadora.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/mar22266/lab7calc.git",
@@ -42,8 +42,8 @@ const projectsData = [
     },
     {
         id: 5,
-        title: "Determinant Matrix Calculator",
-        description: "Project 5 description",
+        title: "Matrix Determinant Calculator",
+        description: "This is a determinant calculator built in Java, can calculate the determinante of 4x4, 5x5, 6x6, 7x7. The diagonal of the matrix cannot be 0. Made by condensation method. Calculate via command line.",
         image: "/images/projects/matriz.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/mar22266/2022-Calculadora-Matrices.git",
@@ -51,8 +51,8 @@ const projectsData = [
     },
     {
         id: 6,
-        title: "Lisp Interpreter in Java",
-        description: "Project 6 description",
+        title: "Lisp interpreter",
+        description: "This is a java program that interprets lisp code. The program can interpret the basic operations of lisp via command line",
         image: "/images/projects/lisp.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/mar22266/2023-ES-PY1-Lisp-Interpreter.git",
