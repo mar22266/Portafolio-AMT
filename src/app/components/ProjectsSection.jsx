@@ -11,8 +11,8 @@ const projectsData = [
         description: "This is my portfolio website. It was built using Next.js and Tailwind CSS. The website has a home page, about page, projects page, and contact page. The website is responsive.",
         image: "/images/projects/portafolio.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "",
+        previewUrl: "",
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
         image: "/images/projects/android.png",
         tag: ["All", "Mobile"],
         gitUrl: "https://github.com/mar22266/NutritionExAndroidApp.git",
-        previewUrl: "/",
+        previewUrl: "",
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ const projectsData = [
         image: "/images/projects/matriz.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/mar22266/2022-Calculadora-Matrices.git",
-        previewUrl: "/",
+        previewUrl: "",
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
         image: "/images/projects/lisp.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/mar22266/2023-ES-PY1-Lisp-Interpreter.git",
-        previewUrl: "/",
+        previewUrl: "",
     },
 ];
 
