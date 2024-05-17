@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 
 const Section = () => {
@@ -37,7 +38,12 @@ const Section = () => {
                         Welcome to my portfolio
                     </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-primary-300 to-secondary-500 hover:bg-secondary-200 text-black'>Hire me</button>
+                        <Link href='#contact'>
+                            <button
+                                className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-primary-300 to-secondary-500 hover:bg-secondary-200 text-black'>
+                                Hire me
+                            </button>
+                        </Link>
                         <a href="/CV.pdf" download>
                             <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-secondary-500 via-secondary-400 to-secondary-300 hover:bg-secondary-800 text-black border border-white mt-3'>
                                 Download CV
