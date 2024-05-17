@@ -6,11 +6,11 @@ import { TypeAnimation } from 'react-type-animation'
 
 const Section = () => {
     return (
-        <section>
+        <section className='lg:py-16'>
             <div className='grid grid-cols-1 sm:grid-cols-12'>
-                <div className='col-span-7 place-self-center text-center sm:text-left'>
-                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 via-blue-300 to-slate-500'>
+                <div className='col-span-7 place-self-center text-center sm:text-left justify-self-start'>
+                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normals font-extrabold">
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r  from-primary-500 via-primary-300 to-secondary-500'>
                             Welcome, I am a{" "}
                         </span>
                         <br />
@@ -32,9 +32,9 @@ const Section = () => {
                         Welcome to my portfolio
                     </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-300 to-slate-500 hover:bg-slate-200 text-black'>Hire me</button>
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-primary-300 to-secondary-500 hover:bg-secondary-200 text-black'>Hire me</button>
                         <a href="/CV.pdf" download>
-                            <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-slate-500 via-slate-400 to-slate-300 hover:bg-slate-800 text-black border border-white mt-3'>
+                            <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-secondary-500 via-secondary-400 to-secondary-300 hover:bg-secondary-800 text-black border border-white mt-3'>
                                 Download CV
                             </button>
                         </a>

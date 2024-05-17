@@ -19,7 +19,7 @@ export async function POST(req) {
                         <p style={{ color: 'black' }}>Thank you for contacting me!</p>
                         <p style={{ color: 'black' }}>I will get back to you as soon as possible.</p>
                         <div style={{ height: '2em' }}></div>
-                        <p style={{ color: 'blue' }}>USER MESSAGE: {message}</p>
+                        <p style={{ color: 'primary' }}>USER MESSAGE: {message}</p>
                     </div>
 
                 </>
