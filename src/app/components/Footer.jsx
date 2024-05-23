@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='container p-12'>
                 <span></span>
                 <p>
-                    <span className="text-gray-700">judygab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>By Andre Marroquin
+                    <span className="text-gray-700">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Andre Marroquin
                 </p>
 
             </div>
